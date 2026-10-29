@@ -1,0 +1,127 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Week1
+{
+    public partial class FormVendingMachine : Form
+    {
+        private int insertedMoney = 0;
+
+        public FormVendingMachine()
+        {
+            InitializeComponent();
+            UpdateMoneyDisplay();
+            // Initially disable the vending machine buttons
+            groupBoxVendingMachine.Enabled = false;
+            buttonInsertMoney5000.Click += InsertMoneyButton_Click;
+            buttonInsertMoney10000.Click += InsertMoneyButton_Click;
+            buttonInsertMoney20000.Click += InsertMoneyButton_Click;
+
+            buttonHarga5000.Click += buttonHargaDiteken;
+            buttonHarga6500.Click += buttonHargaDiteken;
+            buttonHarga5500.Click += buttonHargaDiteken;
+            buttonHarga10000.Click += buttonHargaDiteken;
+            buttonHarga13000.Click += buttonHargaDiteken;
+            buttonHarga4000.Click += buttonHargaDiteken;
+            buttonHarga9000.Click += buttonHargaDiteken;
+            buttonHarga11000.Click += buttonHargaDiteken;
+            buttonHarga3000.Click += buttonHargaDiteken;
+
+        }
+
+
+        private void InsertMoneyButton_Click(object sender, EventArgs e)
+        {
+            Button btn = sender as Button;
+
+            if (btn == buttonInsertMoney5000)
+                InsertMoney(5000);
+            else if (btn == buttonInsertMoney10000)
+                InsertMoney(10000);
+            else if (btn == buttonInsertMoney20000)
+                InsertMoney(20000);
+        }
+
+        private void InsertMoney(int amount)
+        {
+            if (UserStorage.currentUser != null && UserStorage.currentUser.money >= amount)
+            {
+                groupBoxVendingMachine.Enabled = true;
+
+                //UserStorage.currentUser.money -= amount;
+                //insertedMoney += amount;
+                //UpdateMoneyDisplay();
+                MessageBox.Show($"Inserted Rp {amount:N0}. Total inserted: Rp {insertedMoney:N0}", "Money Inserted");
+            }
+            else
+            {
+                MessageBox.Show("Uang di dompet ga cukup", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void UpdateMoneyDisplay()
+        {
+            if (UserStorage.currentUser != null)
+            {
+                labelYourMoney.Text = $"Your Money: Rp {UserStorage.currentUser.money:N0}";
+                labelUangUser.Text = $"Rp {UserStorage.currentUser.money:N0}";
+                labelReferralCode.Text = $"Referral Code : {UserStorage.currentUser.referralCode}";
+            }
+        }
+
+        private void buttonDoHomework_Click(object sender, EventArgs e)
+        {
+            DoHomework formDoHomework = new DoHomework();
+            formDoHomework.Show();
+            this.Hide();
+        }
+
+        private void buttonLogOut_Click(object sender, EventArgs e)
+        {
+            FormLogin formLogin = new FormLogin();
+            formLogin.Show();
+            this.Hide();
+        }
+
+        private void buttonHargaDiteken(object sender, EventArgs e)
+        {
+            int price = 0;
+            Button btn = sender as Button;
+
+            if (btn == buttonHarga5000) { price = 5000; }
+            else if (btn == buttonHarga6500) { price = 6500; }
+            else if (btn == buttonHarga10000) { price = 10000; }
+            else if (btn == buttonHarga4000) { price = 4000; }
+            else if (btn == buttonHarga5500) { price = 5500; }
+            else if (btn == buttonHarga13000) { price = 13000; }
+            else if (btn == buttonHarga9000) { price = 9000; }
+            else if (btn == buttonHarga11000) { price = 11000; }
+            else if (btn == buttonHarga3000) { price = 3000; }
+
+            if (price > 0 && UserStorage.currentUser != null)
+            {
+                if (UserStorage.currentUser.money >= price)
+                {
+                    // deduct money
+                    UserStorage.currentUser.money -= price;
+
+                    // update UI
+                    UpdateMoneyDisplay();
+
+                    MessageBox.Show($"You bought an item for Rp {price:N0}. Remaining money: Rp {UserStorage.currentUser.money:N0}");
+                }
+                else
+                {
+                    MessageBox.Show("Uangmu ga cukup!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+    }
+}

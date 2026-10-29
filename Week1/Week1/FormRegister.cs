@@ -1,0 +1,92 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Week1
+{
+    public partial class FormRegister : Form
+    {
+        public FormRegister()
+        {
+            InitializeComponent();
+        }
+
+        private void buttonGoToLogin_Click(object sender, EventArgs e)
+        {
+            FormLogin formLogin = new FormLogin();
+            formLogin.Show();
+            this.Hide();
+        }
+
+        private void buttonRegister_Click(object sender, EventArgs e)
+        {
+            string username = textBoxUsername.Text;
+            string nama = textBoxNama.Text;
+            string password = textBoxPassword.Text;
+            string referralCode = textBoxReferralCode.Text;
+
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(nama) || string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Username, Nama, dan Password harus diisi!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (nama.Length < 5)
+            {
+                MessageBox.Show("Nama harus memiliki minimal 5 karakter!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            if (password.Length < 3)
+            {
+                MessageBox.Show("Password harus memiliki minimal 3 karakter!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            int startingMoney = 0;
+            bool validReferral = false;
+            if (!string.IsNullOrEmpty(referralCode))
+            {
+                foreach (User u in UserStorage.users)
+                {
+                    if (u.referralCode == referralCode)
+                    {
+                        validReferral = true;
+                        break;
+                    }
+                }
+                if (validReferral)
+                {
+                    startingMoney = 50000;
+                }
+            }
+            string newReferralCode = GenerateReferralCode();
+            UserStorage.AddUser(username, nama, password, referralCode);
+            MessageBox.Show("Registrasi berhasil!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            if (UserStorage.users.Count == 0)
+            {
+                MessageBox.Show("No accounts found.");
+            }
+            else
+            {
+                string allUsers = "";
+                foreach (User u in UserStorage.users)
+                {
+                    allUsers += $"Username: {u.username}, Name: {u.nama}, Referral: {u.referralCode}, Money: {u.money}\n";
+                }
+                MessageBox.Show(allUsers, "Registered Users");
+            }
+        }
+
+        private string GenerateReferralCode()
+        {
+            Random rnd = new Random();
+            return rnd.Next(10000, 99999).ToString("D5");
+        }
+    }
+}

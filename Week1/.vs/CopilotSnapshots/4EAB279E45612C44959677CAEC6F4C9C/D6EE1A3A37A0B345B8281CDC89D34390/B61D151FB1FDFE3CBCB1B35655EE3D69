@@ -1,0 +1,78 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Week1
+{
+    public partial class FormRegister : Form
+    {
+        public FormRegister()
+        {
+            InitializeComponent();
+            //UserStorage.AddUser("admin", "admnin", "123", "");
+        }
+
+        private void buttonGoToLogin_Click(object sender, EventArgs e)
+        {
+            //mbalekkk ke form loginn
+            FormLogin formLogin = new FormLogin();
+            formLogin.Show();
+            this.Hide();
+        }
+
+        private void buttonRegister_Click(object sender, EventArgs e)
+        {
+            string username = textBoxUsername.Text;
+            string nama = textBoxNama.Text;
+            string password = textBoxPassword.Text;
+            string referralCode = textBoxReferralCode.Text;
+
+            //cek textbox e kosong or nohh
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(nama) || string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Username, Nama, dan Password harus diisi!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            //cek nama e < 5 ga karakter e
+            if (nama.Length < 5)
+            {
+                MessageBox.Show("Nama harus memiliki minimal 5 karakter!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            // iki cek password onok 3 karakter ga nde password e
+            if (password.Length < 3)
+            {
+                MessageBox.Show("Password harus memiliki minimal 3 karakter!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            // masukno ke list user 
+            UserStorage.AddUser(username, nama, password, referralCode);
+            MessageBox.Show("Registrasi berhasil!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+            //tes ombak
+            if (UserStorage.users.Count == 0)
+            {
+                MessageBox.Show("No accounts found.");
+            }
+            else
+            {
+                string allUsers = "";
+                foreach (User u in UserStorage.users)
+                {
+                    allUsers += $"Username: {u.username}, Name: {u.nama}, Referral: {u.referralCode}, Money: {u.money}\n";
+                }
+
+                MessageBox.Show(allUsers, "Registered Users");
+            }
+
+        }
+    }
+}

@@ -1,0 +1,30 @@
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\bin\Debug\Week1.exe.config
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\bin\Debug\Week1.exe
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\bin\Debug\Week1.pdb
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.csproj.AssemblyReference.cache
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.FormRegister.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.Properties.Resources.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.csproj.GenerateResource.cache
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.csproj.CoreCompileInputs.cache
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.exe
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.pdb
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.exe.config
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.FormLogin.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.DoHomework.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.FormVendingMachine.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\Week1\Week1\obj\Debug\Week1.GuntingBatuKertas.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\bin\Debug\Week1.exe.config
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\bin\Debug\Week1.exe
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\bin\Debug\Week1.pdb
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.csproj.AssemblyReference.cache
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.exe.config
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.DoHomework.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.FormLogin.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.FormRegister.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.FormVendingMachine.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.GuntingBatuKertas.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.Properties.Resources.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.csproj.GenerateResource.cache
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.csproj.CoreCompileInputs.cache
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.exe
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\Week1\Week1\obj\Debug\Week1.pdb

@@ -1,0 +1,93 @@
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+
+namespace w5
+{
+    public partial class formUser : Form
+    {
+        public string koneksi = "Server=localhost; Database=pv_t5_224117124; UserID=root; Password=;";
+        MySqlConnection conn;
+        public int selected = -1;
+        private string currentUser;
+        public formUser(string userId, string username)
+        {
+            InitializeComponent();
+            connectDatabase();
+            refreshDGV();
+            currentUser = username;
+
+        }
+        public void connectDatabase()
+        {
+            conn = new MySqlConnection(koneksi);
+
+            try
+            {
+                conn.Open();
+                conn.Close();
+                MessageBox.Show("database connected");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+        public void refreshDGV()
+        {
+            try
+            {
+                if (conn.State == ConnectionState.Closed)
+                {
+                    conn.Open();
+                }
+
+                string query = "SELECT m.movieId, m.title, m.genre, m.duration, s.studioId, s.studioName, s.basePrice\r\nFROM movie m\r\nJOIN studio s ON s.studioId=m.studioId;";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                DataTable dt = new DataTable();
+                dt.Load(reader);
+                dataGridView1.DataSource = dt;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        private void formUser_Load(object sender, EventArgs e)
+        {
+            label1.Text = $"WELKAMMM, {currentUser}!";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            login formLogin = new login();
+            formLogin.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //TOP UP JIEN
+            topup formTopup = new topup(currentUser);
+            formTopup.Show();
+            this.Hide();
+        }
+    }
+}

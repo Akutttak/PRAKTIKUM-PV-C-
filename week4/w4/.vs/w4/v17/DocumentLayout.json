@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|c:\\users\\vania wu\\documents\\sem 3\\pv\\praktikum\\tugas praktikum\\week4\\w4\\w4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\loginregis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\loginregis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\tambahaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\tambahaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\tambahaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\tambahaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\pijah.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\pijah.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\formuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\formuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\loginregis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\loginregis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\user.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\user.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\order.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{C46F928A-5E24-45C3-A16E-D2339A0EC208}|w4\\w4.csproj|solutionrelative:w4\\order.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Form1.cs",
+              "RelativeDocumentMoniker": "w4\\Form1.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Form1.cs",
+              "RelativeToolTip": "w4\\Form1.cs",
+              "ViewState": "AgIAAAoBAAAAAAAAAADwvycBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:52:45.619Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Form1.cs",
+              "RelativeDocumentMoniker": "w4\\Form1.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Form1.cs [Design]",
+              "RelativeToolTip": "w4\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T04:37:16.528Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\formUser.cs",
+              "RelativeDocumentMoniker": "w4\\formUser.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\formUser.cs [Design]",
+              "RelativeToolTip": "w4\\formUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:42:10.978Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "loginRegis.cs",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\loginRegis.cs",
+              "RelativeDocumentMoniker": "w4\\loginRegis.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\loginRegis.cs",
+              "RelativeToolTip": "w4\\loginRegis.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAUwFEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:37:39.353Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formUser.cs",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\formUser.cs",
+              "RelativeDocumentMoniker": "w4\\formUser.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\formUser.cs",
+              "RelativeToolTip": "w4\\formUser.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAAIwBwBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T17:14:57.978Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pijah.xsd",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Pijah.xsd",
+              "RelativeDocumentMoniker": "w4\\Pijah.xsd",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Pijah.xsd",
+              "RelativeToolTip": "w4\\Pijah.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-10-22T09:27:24.426Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tambahAksi.cs",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\tambahAksi.cs",
+              "RelativeDocumentMoniker": "w4\\tambahAksi.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\tambahAksi.cs",
+              "RelativeToolTip": "w4\\tambahAksi.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvyAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T05:44:04.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tambahAksi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\tambahAksi.cs",
+              "RelativeDocumentMoniker": "w4\\tambahAksi.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\tambahAksi.cs [Design]",
+              "RelativeToolTip": "w4\\tambahAksi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T05:43:12.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "w4\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Form1.Designer.cs",
+              "RelativeToolTip": "w4\\Form1.Designer.cs",
+              "ViewState": "AgIAABACAAAAAAAAAAAswBACAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:38:34.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "formUser.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\formUser.Designer.cs",
+              "RelativeDocumentMoniker": "w4\\formUser.Designer.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\formUser.Designer.cs",
+              "RelativeToolTip": "w4\\formUser.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:17:23.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Program.cs",
+              "RelativeDocumentMoniker": "w4\\Program.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Program.cs",
+              "RelativeToolTip": "w4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:48:16.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "loginRegis.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\loginRegis.cs",
+              "RelativeDocumentMoniker": "w4\\loginRegis.cs",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\loginRegis.cs [Design]",
+              "RelativeToolTip": "w4\\loginRegis.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:37:01.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.xsd",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\User.xsd",
+              "RelativeDocumentMoniker": "w4\\User.xsd",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\User.xsd",
+              "RelativeToolTip": "w4\\User.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-10-22T09:30:31.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.xsd",
+              "DocumentMoniker": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Order.xsd",
+              "RelativeDocumentMoniker": "w4\\Order.xsd",
+              "ToolTip": "C:\\Users\\Vania Wu\\Documents\\SEM 3\\PV\\PRAKTIKUM\\TUGAS PRAKTIKUM\\week4\\w4\\w4\\Order.xsd",
+              "RelativeToolTip": "w4\\Order.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-10-22T09:31:31.583Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

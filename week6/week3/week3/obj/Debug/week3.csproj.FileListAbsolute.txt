@@ -1,0 +1,33 @@
+C:\Users\Vinc\Documents\BING\w3\week3\week3\bin\Debug\week3.exe.config
+C:\Users\Vinc\Documents\BING\w3\week3\week3\bin\Debug\week3.exe
+C:\Users\Vinc\Documents\BING\w3\week3\week3\bin\Debug\week3.pdb
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.csproj.AssemblyReference.cache
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.Form1.resources
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.Properties.Resources.resources
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.csproj.GenerateResource.cache
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.csproj.CoreCompileInputs.cache
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.exe
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.pdb
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.exe.config
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.tebangPohon.resources
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.inventory.resources
+C:\Users\Vinc\Documents\BING\w3\week3\week3\obj\Debug\week3.shop.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\bin\Debug\week3.exe.config
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\bin\Debug\week3.exe
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\bin\Debug\week3.pdb
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.csproj.AssemblyReference.cache
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.exe.config
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.Form1.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.inventory.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.Properties.Resources.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.shop.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.tebangPohon.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.csproj.GenerateResource.cache
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.csproj.CoreCompileInputs.cache
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.exe
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.pdb
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\bin\Debug\MySql.Data.dll
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.csproj.Up2Date
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.ShelfForm.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.StoreForm.resources
+C:\Users\Vania Wu\Documents\SEM 3\PV\PRAKTIKUM\TUGAS PRAKTIKUM\week3\week3\week3\obj\Debug\week3.formHistory.resources

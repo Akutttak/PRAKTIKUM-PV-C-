@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Week1
+{
+    public partial class FormVendingMachine : Form
+    {
+        public FormVendingMachine()
+        {
+            InitializeComponent();
+            labelYourMoney.Text = $"Your Money: Rp {User.Money}";
+        }
+
+        private void buttonDoHomework_Click(object sender, EventArgs e)
+        {
+            DoHomework formDoHomework = new DoHomework();
+            formDoHomework.Show();
+            this.Hide();
+        }
+    }
+}

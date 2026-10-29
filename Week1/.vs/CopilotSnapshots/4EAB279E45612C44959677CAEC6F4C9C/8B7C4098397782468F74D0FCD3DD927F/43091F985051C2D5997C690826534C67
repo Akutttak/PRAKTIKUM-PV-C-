@@ -1,0 +1,530 @@
+﻿namespace Week1
+{
+    partial class FormVendingMachine
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.groupBoxVendingMachine = new System.Windows.Forms.GroupBox();
+            this.buttonHarga3000 = new System.Windows.Forms.Button();
+            this.buttonHarga11000 = new System.Windows.Forms.Button();
+            this.buttonHarga9000 = new System.Windows.Forms.Button();
+            this.buttonStrawberry = new System.Windows.Forms.Button();
+            this.buttonOnigiri = new System.Windows.Forms.Button();
+            this.buttonCheese = new System.Windows.Forms.Button();
+            this.buttonHarga13000 = new System.Windows.Forms.Button();
+            this.buttonHarga5500 = new System.Windows.Forms.Button();
+            this.buttonHarga4000 = new System.Windows.Forms.Button();
+            this.buttonCake = new System.Windows.Forms.Button();
+            this.buttonSandwich = new System.Windows.Forms.Button();
+            this.buttonCroissant = new System.Windows.Forms.Button();
+            this.buttonHarga10000 = new System.Windows.Forms.Button();
+            this.buttonHarga6500 = new System.Windows.Forms.Button();
+            this.buttonHarga5000 = new System.Windows.Forms.Button();
+            this.buttonSpagethi = new System.Windows.Forms.Button();
+            this.buttonPizza = new System.Windows.Forms.Button();
+            this.buttonBurger = new System.Windows.Forms.Button();
+            this.labelUangUser = new System.Windows.Forms.Label();
+            this.labelYourMoney = new System.Windows.Forms.Label();
+            this.labelReferralCode = new System.Windows.Forms.Label();
+            this.labelInventory = new System.Windows.Forms.Label();
+            this.listBoxVendingMachine = new System.Windows.Forms.ListBox();
+            this.labelGetMoney = new System.Windows.Forms.Label();
+            this.buttonDoHomework = new System.Windows.Forms.Button();
+            this.buttonPressButton = new System.Windows.Forms.Button();
+            this.buttonDoStuff = new System.Windows.Forms.Button();
+            this.buttonLogOut = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonInsertMoney20000 = new System.Windows.Forms.Button();
+            this.buttonInsertMoney10000 = new System.Windows.Forms.Button();
+            this.buttonInsertMoney5000 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBoxVendingMachine.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupBoxVendingMachine
+            // 
+            this.groupBoxVendingMachine.BackColor = System.Drawing.Color.MistyRose;
+            this.groupBoxVendingMachine.Controls.Add(this.buttonHarga3000);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonHarga11000);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonHarga9000);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonStrawberry);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonOnigiri);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonCheese);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonHarga13000);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonHarga5500);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonHarga4000);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonCake);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonSandwich);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonCroissant);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonHarga10000);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonHarga6500);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonHarga5000);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonSpagethi);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonPizza);
+            this.groupBoxVendingMachine.Controls.Add(this.buttonBurger);
+            this.groupBoxVendingMachine.Controls.Add(this.labelUangUser);
+            this.groupBoxVendingMachine.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBoxVendingMachine.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxVendingMachine.Name = "groupBoxVendingMachine";
+            this.groupBoxVendingMachine.Size = new System.Drawing.Size(307, 408);
+            this.groupBoxVendingMachine.TabIndex = 0;
+            this.groupBoxVendingMachine.TabStop = false;
+            this.groupBoxVendingMachine.Text = "Vending Machine";
+            // 
+            // buttonHarga3000
+            // 
+            this.buttonHarga3000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHarga3000.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonHarga3000.Location = new System.Drawing.Point(205, 355);
+            this.buttonHarga3000.Name = "buttonHarga3000";
+            this.buttonHarga3000.Size = new System.Drawing.Size(87, 29);
+            this.buttonHarga3000.TabIndex = 27;
+            this.buttonHarga3000.Text = "Rp 3.000";
+            this.buttonHarga3000.UseVisualStyleBackColor = true;
+            this.buttonHarga3000.Click += new System.EventHandler(this.buttonHarga3000_Click);
+            // 
+            // buttonHarga11000
+            // 
+            this.buttonHarga11000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHarga11000.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonHarga11000.Location = new System.Drawing.Point(110, 354);
+            this.buttonHarga11000.Name = "buttonHarga11000";
+            this.buttonHarga11000.Size = new System.Drawing.Size(87, 29);
+            this.buttonHarga11000.TabIndex = 26;
+            this.buttonHarga11000.Text = "Rp 11.000";
+            this.buttonHarga11000.UseVisualStyleBackColor = true;
+            this.buttonHarga11000.Click += new System.EventHandler(this.buttonHarga11000_Click);
+            // 
+            // buttonHarga9000
+            // 
+            this.buttonHarga9000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHarga9000.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonHarga9000.Location = new System.Drawing.Point(13, 355);
+            this.buttonHarga9000.Name = "buttonHarga9000";
+            this.buttonHarga9000.Size = new System.Drawing.Size(87, 29);
+            this.buttonHarga9000.TabIndex = 25;
+            this.buttonHarga9000.Text = "Rp 9.000";
+            this.buttonHarga9000.UseVisualStyleBackColor = true;
+            this.buttonHarga9000.Click += new System.EventHandler(this.buttonHarga9000_Click);
+            // 
+            // buttonStrawberry
+            // 
+            this.buttonStrawberry.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStrawberry.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonStrawberry.Location = new System.Drawing.Point(205, 285);
+            this.buttonStrawberry.Name = "buttonStrawberry";
+            this.buttonStrawberry.Size = new System.Drawing.Size(87, 64);
+            this.buttonStrawberry.TabIndex = 24;
+            this.buttonStrawberry.Text = "🍓";
+            this.buttonStrawberry.UseVisualStyleBackColor = true;
+            // 
+            // buttonOnigiri
+            // 
+            this.buttonOnigiri.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonOnigiri.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonOnigiri.Location = new System.Drawing.Point(110, 285);
+            this.buttonOnigiri.Name = "buttonOnigiri";
+            this.buttonOnigiri.Size = new System.Drawing.Size(87, 64);
+            this.buttonOnigiri.TabIndex = 23;
+            this.buttonOnigiri.Text = "🍙";
+            this.buttonOnigiri.UseVisualStyleBackColor = true;
+            // 
+            // buttonCheese
+            // 
+            this.buttonCheese.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCheese.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonCheese.Location = new System.Drawing.Point(13, 285);
+            this.buttonCheese.Name = "buttonCheese";
+            this.buttonCheese.Size = new System.Drawing.Size(87, 64);
+            this.buttonCheese.TabIndex = 22;
+            this.buttonCheese.Text = "🧀";
+            this.buttonCheese.UseVisualStyleBackColor = true;
+            // 
+            // buttonHarga13000
+            // 
+            this.buttonHarga13000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHarga13000.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonHarga13000.Location = new System.Drawing.Point(205, 241);
+            this.buttonHarga13000.Name = "buttonHarga13000";
+            this.buttonHarga13000.Size = new System.Drawing.Size(89, 29);
+            this.buttonHarga13000.TabIndex = 21;
+            this.buttonHarga13000.Text = "Rp 13.000";
+            this.buttonHarga13000.UseVisualStyleBackColor = true;
+            this.buttonHarga13000.Click += new System.EventHandler(this.buttonHarga13000_Click);
+            // 
+            // buttonHarga5500
+            // 
+            this.buttonHarga5500.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHarga5500.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonHarga5500.Location = new System.Drawing.Point(110, 242);
+            this.buttonHarga5500.Name = "buttonHarga5500";
+            this.buttonHarga5500.Size = new System.Drawing.Size(87, 29);
+            this.buttonHarga5500.TabIndex = 20;
+            this.buttonHarga5500.Text = "Rp 5.500";
+            this.buttonHarga5500.UseVisualStyleBackColor = true;
+            this.buttonHarga5500.Click += new System.EventHandler(this.buttonHarga5500_Click);
+            // 
+            // buttonHarga4000
+            // 
+            this.buttonHarga4000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHarga4000.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonHarga4000.Location = new System.Drawing.Point(13, 241);
+            this.buttonHarga4000.Name = "buttonHarga4000";
+            this.buttonHarga4000.Size = new System.Drawing.Size(87, 29);
+            this.buttonHarga4000.TabIndex = 19;
+            this.buttonHarga4000.Text = "Rp 4.000";
+            this.buttonHarga4000.UseVisualStyleBackColor = true;
+            this.buttonHarga4000.Click += new System.EventHandler(this.buttonHarga4000_Click);
+            // 
+            // buttonCake
+            // 
+            this.buttonCake.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCake.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonCake.Location = new System.Drawing.Point(205, 172);
+            this.buttonCake.Name = "buttonCake";
+            this.buttonCake.Size = new System.Drawing.Size(87, 64);
+            this.buttonCake.TabIndex = 18;
+            this.buttonCake.Text = "🍰";
+            this.buttonCake.UseVisualStyleBackColor = true;
+            // 
+            // buttonSandwich
+            // 
+            this.buttonSandwich.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSandwich.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonSandwich.Location = new System.Drawing.Point(110, 172);
+            this.buttonSandwich.Name = "buttonSandwich";
+            this.buttonSandwich.Size = new System.Drawing.Size(87, 64);
+            this.buttonSandwich.TabIndex = 17;
+            this.buttonSandwich.Text = "🥪";
+            this.buttonSandwich.UseVisualStyleBackColor = true;
+            // 
+            // buttonCroissant
+            // 
+            this.buttonCroissant.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCroissant.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonCroissant.Location = new System.Drawing.Point(13, 172);
+            this.buttonCroissant.Name = "buttonCroissant";
+            this.buttonCroissant.Size = new System.Drawing.Size(87, 64);
+            this.buttonCroissant.TabIndex = 16;
+            this.buttonCroissant.Text = "🥐";
+            this.buttonCroissant.UseVisualStyleBackColor = true;
+            // 
+            // buttonHarga10000
+            // 
+            this.buttonHarga10000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHarga10000.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonHarga10000.Location = new System.Drawing.Point(205, 128);
+            this.buttonHarga10000.Name = "buttonHarga10000";
+            this.buttonHarga10000.Size = new System.Drawing.Size(87, 29);
+            this.buttonHarga10000.TabIndex = 15;
+            this.buttonHarga10000.Text = "Rp 10.000";
+            this.buttonHarga10000.UseVisualStyleBackColor = true;
+            this.buttonHarga10000.Click += new System.EventHandler(this.buttonHarga10000_Click);
+            // 
+            // buttonHarga6500
+            // 
+            this.buttonHarga6500.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHarga6500.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonHarga6500.Location = new System.Drawing.Point(110, 127);
+            this.buttonHarga6500.Name = "buttonHarga6500";
+            this.buttonHarga6500.Size = new System.Drawing.Size(87, 29);
+            this.buttonHarga6500.TabIndex = 14;
+            this.buttonHarga6500.Text = "Rp 6.500";
+            this.buttonHarga6500.UseVisualStyleBackColor = true;
+            this.buttonHarga6500.Click += new System.EventHandler(this.buttonHarga6500_Click);
+            // 
+            // buttonHarga5000
+            // 
+            this.buttonHarga5000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonHarga5000.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonHarga5000.Location = new System.Drawing.Point(13, 127);
+            this.buttonHarga5000.Name = "buttonHarga5000";
+            this.buttonHarga5000.Size = new System.Drawing.Size(87, 29);
+            this.buttonHarga5000.TabIndex = 13;
+            this.buttonHarga5000.Text = "Rp 5.000";
+            this.buttonHarga5000.UseVisualStyleBackColor = true;
+            this.buttonHarga5000.Click += new System.EventHandler(this.buttonHarga5000_Click);
+            // 
+            // buttonSpagethi
+            // 
+            this.buttonSpagethi.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSpagethi.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonSpagethi.Location = new System.Drawing.Point(205, 58);
+            this.buttonSpagethi.Name = "buttonSpagethi";
+            this.buttonSpagethi.Size = new System.Drawing.Size(87, 64);
+            this.buttonSpagethi.TabIndex = 12;
+            this.buttonSpagethi.Text = "🍝";
+            this.buttonSpagethi.UseVisualStyleBackColor = true;
+            // 
+            // buttonPizza
+            // 
+            this.buttonPizza.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPizza.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonPizza.Location = new System.Drawing.Point(110, 58);
+            this.buttonPizza.Name = "buttonPizza";
+            this.buttonPizza.Size = new System.Drawing.Size(89, 64);
+            this.buttonPizza.TabIndex = 11;
+            this.buttonPizza.Text = "🍕";
+            this.buttonPizza.UseVisualStyleBackColor = true;
+            // 
+            // buttonBurger
+            // 
+            this.buttonBurger.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonBurger.ForeColor = System.Drawing.Color.Salmon;
+            this.buttonBurger.Location = new System.Drawing.Point(13, 58);
+            this.buttonBurger.Name = "buttonBurger";
+            this.buttonBurger.Size = new System.Drawing.Size(87, 64);
+            this.buttonBurger.TabIndex = 10;
+            this.buttonBurger.Text = "🍔";
+            this.buttonBurger.UseVisualStyleBackColor = true;
+            // 
+            // labelUangUser
+            // 
+            this.labelUangUser.AutoSize = true;
+            this.labelUangUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUangUser.Location = new System.Drawing.Point(163, 18);
+            this.labelUangUser.Name = "labelUangUser";
+            this.labelUangUser.Size = new System.Drawing.Size(44, 25);
+            this.labelUangUser.TabIndex = 10;
+            this.labelUangUser.Text = "Rp ";
+            // 
+            // labelYourMoney
+            // 
+            this.labelYourMoney.AutoSize = true;
+            this.labelYourMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelYourMoney.Location = new System.Drawing.Point(323, 20);
+            this.labelYourMoney.Name = "labelYourMoney";
+            this.labelYourMoney.Size = new System.Drawing.Size(128, 25);
+            this.labelYourMoney.TabIndex = 1;
+            this.labelYourMoney.Text = "Your Money";
+            // 
+            // labelReferralCode
+            // 
+            this.labelReferralCode.AutoSize = true;
+            this.labelReferralCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelReferralCode.Location = new System.Drawing.Point(323, 61);
+            this.labelReferralCode.Name = "labelReferralCode";
+            this.labelReferralCode.Size = new System.Drawing.Size(196, 25);
+            this.labelReferralCode.TabIndex = 2;
+            this.labelReferralCode.Text = "Your Referral Code";
+            // 
+            // labelInventory
+            // 
+            this.labelInventory.AutoSize = true;
+            this.labelInventory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInventory.Location = new System.Drawing.Point(410, 117);
+            this.labelInventory.Name = "labelInventory";
+            this.labelInventory.Size = new System.Drawing.Size(101, 25);
+            this.labelInventory.TabIndex = 3;
+            this.labelInventory.Text = "Inventory";
+            // 
+            // listBoxVendingMachine
+            // 
+            this.listBoxVendingMachine.FormattingEnabled = true;
+            this.listBoxVendingMachine.ItemHeight = 16;
+            this.listBoxVendingMachine.Location = new System.Drawing.Point(340, 154);
+            this.listBoxVendingMachine.Name = "listBoxVendingMachine";
+            this.listBoxVendingMachine.Size = new System.Drawing.Size(244, 180);
+            this.listBoxVendingMachine.TabIndex = 4;
+            // 
+            // labelGetMoney
+            // 
+            this.labelGetMoney.AutoSize = true;
+            this.labelGetMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGetMoney.Location = new System.Drawing.Point(405, 355);
+            this.labelGetMoney.Name = "labelGetMoney";
+            this.labelGetMoney.Size = new System.Drawing.Size(132, 25);
+            this.labelGetMoney.TabIndex = 5;
+            this.labelGetMoney.Text = "Get Money-!";
+            // 
+            // buttonDoHomework
+            // 
+            this.buttonDoHomework.Location = new System.Drawing.Point(406, 393);
+            this.buttonDoHomework.Name = "buttonDoHomework";
+            this.buttonDoHomework.Size = new System.Drawing.Size(127, 39);
+            this.buttonDoHomework.TabIndex = 6;
+            this.buttonDoHomework.Text = "Do Homework!";
+            this.buttonDoHomework.UseVisualStyleBackColor = true;
+            this.buttonDoHomework.Click += new System.EventHandler(this.buttonDoHomework_Click);
+            // 
+            // buttonPressButton
+            // 
+            this.buttonPressButton.Location = new System.Drawing.Point(406, 444);
+            this.buttonPressButton.Name = "buttonPressButton";
+            this.buttonPressButton.Size = new System.Drawing.Size(127, 39);
+            this.buttonPressButton.TabIndex = 7;
+            this.buttonPressButton.Text = "Press Button";
+            this.buttonPressButton.UseVisualStyleBackColor = true;
+            // 
+            // buttonDoStuff
+            // 
+            this.buttonDoStuff.Location = new System.Drawing.Point(406, 494);
+            this.buttonDoStuff.Name = "buttonDoStuff";
+            this.buttonDoStuff.Size = new System.Drawing.Size(127, 39);
+            this.buttonDoStuff.TabIndex = 8;
+            this.buttonDoStuff.Text = "Do Stuff!";
+            this.buttonDoStuff.UseVisualStyleBackColor = true;
+            // 
+            // buttonLogOut
+            // 
+            this.buttonLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.buttonLogOut.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttonLogOut.Location = new System.Drawing.Point(492, 579);
+            this.buttonLogOut.Name = "buttonLogOut";
+            this.buttonLogOut.Size = new System.Drawing.Size(103, 28);
+            this.buttonLogOut.TabIndex = 9;
+            this.buttonLogOut.Text = "Log Out";
+            this.buttonLogOut.UseVisualStyleBackColor = false;
+            this.buttonLogOut.Click += new System.EventHandler(this.buttonLogOut_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.MistyRose;
+            this.groupBox1.Controls.Add(this.buttonInsertMoney20000);
+            this.groupBox1.Controls.Add(this.buttonInsertMoney10000);
+            this.groupBox1.Controls.Add(this.buttonInsertMoney5000);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox1.Location = new System.Drawing.Point(13, 429);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(306, 175);
+            this.groupBox1.TabIndex = 10;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Vending Machine Money Slot";
+            // 
+            // buttonInsertMoney20000
+            // 
+            this.buttonInsertMoney20000.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.buttonInsertMoney20000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonInsertMoney20000.ForeColor = System.Drawing.Color.Black;
+            this.buttonInsertMoney20000.Location = new System.Drawing.Point(209, 89);
+            this.buttonInsertMoney20000.Name = "buttonInsertMoney20000";
+            this.buttonInsertMoney20000.Size = new System.Drawing.Size(75, 29);
+            this.buttonInsertMoney20000.TabIndex = 30;
+            this.buttonInsertMoney20000.Text = "20.000";
+            this.buttonInsertMoney20000.UseVisualStyleBackColor = false;
+            // 
+            // buttonInsertMoney10000
+            // 
+            this.buttonInsertMoney10000.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.buttonInsertMoney10000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonInsertMoney10000.ForeColor = System.Drawing.Color.Black;
+            this.buttonInsertMoney10000.Location = new System.Drawing.Point(114, 89);
+            this.buttonInsertMoney10000.Name = "buttonInsertMoney10000";
+            this.buttonInsertMoney10000.Size = new System.Drawing.Size(75, 29);
+            this.buttonInsertMoney10000.TabIndex = 29;
+            this.buttonInsertMoney10000.Text = "10.000";
+            this.buttonInsertMoney10000.UseVisualStyleBackColor = false;
+            // 
+            // buttonInsertMoney5000
+            // 
+            this.buttonInsertMoney5000.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.buttonInsertMoney5000.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonInsertMoney5000.ForeColor = System.Drawing.Color.Black;
+            this.buttonInsertMoney5000.Location = new System.Drawing.Point(17, 89);
+            this.buttonInsertMoney5000.Name = "buttonInsertMoney5000";
+            this.buttonInsertMoney5000.Size = new System.Drawing.Size(75, 29);
+            this.buttonInsertMoney5000.TabIndex = 28;
+            this.buttonInsertMoney5000.Text = "5.000";
+            this.buttonInsertMoney5000.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(80, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(137, 25);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Insert Money";
+            // 
+            // FormVendingMachine
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(607, 619);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.buttonLogOut);
+            this.Controls.Add(this.buttonDoStuff);
+            this.Controls.Add(this.buttonPressButton);
+            this.Controls.Add(this.buttonDoHomework);
+            this.Controls.Add(this.labelGetMoney);
+            this.Controls.Add(this.listBoxVendingMachine);
+            this.Controls.Add(this.labelInventory);
+            this.Controls.Add(this.labelReferralCode);
+            this.Controls.Add(this.labelYourMoney);
+            this.Controls.Add(this.groupBoxVendingMachine);
+            this.Name = "FormVendingMachine";
+            this.Text = "FormVendingMachine";
+            this.groupBoxVendingMachine.ResumeLayout(false);
+            this.groupBoxVendingMachine.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox groupBoxVendingMachine;
+        private System.Windows.Forms.Label labelYourMoney;
+        private System.Windows.Forms.Label labelReferralCode;
+        private System.Windows.Forms.Label labelInventory;
+        private System.Windows.Forms.ListBox listBoxVendingMachine;
+        private System.Windows.Forms.Label labelGetMoney;
+        private System.Windows.Forms.Button buttonDoHomework;
+        private System.Windows.Forms.Button buttonPressButton;
+        private System.Windows.Forms.Button buttonDoStuff;
+        private System.Windows.Forms.Label labelUangUser;
+        private System.Windows.Forms.Button buttonLogOut;
+        private System.Windows.Forms.Button buttonHarga5000;
+        private System.Windows.Forms.Button buttonSpagethi;
+        private System.Windows.Forms.Button buttonPizza;
+        private System.Windows.Forms.Button buttonBurger;
+        private System.Windows.Forms.Button buttonHarga3000;
+        private System.Windows.Forms.Button buttonHarga11000;
+        private System.Windows.Forms.Button buttonHarga9000;
+        private System.Windows.Forms.Button buttonStrawberry;
+        private System.Windows.Forms.Button buttonOnigiri;
+        private System.Windows.Forms.Button buttonCheese;
+        private System.Windows.Forms.Button buttonHarga13000;
+        private System.Windows.Forms.Button buttonHarga5500;
+        private System.Windows.Forms.Button buttonHarga4000;
+        private System.Windows.Forms.Button buttonCake;
+        private System.Windows.Forms.Button buttonSandwich;
+        private System.Windows.Forms.Button buttonCroissant;
+        private System.Windows.Forms.Button buttonHarga10000;
+        private System.Windows.Forms.Button buttonHarga6500;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button buttonInsertMoney5000;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button buttonInsertMoney20000;
+        private System.Windows.Forms.Button buttonInsertMoney10000;
+    }
+}

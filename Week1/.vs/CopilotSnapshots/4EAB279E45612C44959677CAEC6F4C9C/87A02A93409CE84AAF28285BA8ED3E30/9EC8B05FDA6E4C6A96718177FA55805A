@@ -1,0 +1,73 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Week1
+{
+    public partial class FormVendingMachine : Form
+    {
+        private int insertedMoney = 0;
+
+        public FormVendingMachine()
+        {
+            InitializeComponent();
+            UpdateMoneyDisplay();
+            // Initially disable the vending machine buttons
+            groupBoxVendingMachine.Enabled = false;
+            SetupMoneyInsertButtons();
+        }
+
+        private void SetupMoneyInsertButtons()
+        {
+            buttonInsertMoney5000.Click += (s, e) => InsertMoney(5000);
+            buttonInsertMoney10000.Click += (s, e) => InsertMoney(10000);
+            buttonInsertMoney20000.Click += (s, e) => InsertMoney(20000);
+        }
+
+        private void InsertMoney(int amount)
+        {
+            if (UserStorage.currentUser != null && UserStorage.currentUser.money >= amount)
+            {
+                UserStorage.currentUser.money -= amount;
+                insertedMoney += amount;
+                UpdateMoneyDisplay();
+                groupBoxVendingMachine.Enabled = true;
+                MessageBox.Show($"Inserted Rp {amount:N0}. Total inserted: Rp {insertedMoney:N0}", "Money Inserted");
+            }
+            else
+            {
+                MessageBox.Show("Not enough money in your balance!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void UpdateMoneyDisplay()
+        {
+            if (UserStorage.currentUser != null)
+            {
+                labelYourMoney.Text = $"Your Money: Rp {UserStorage.currentUser.money:N0}";
+                labelUangUser.Text = $"Rp {UserStorage.currentUser.money:N0}";
+                labelReferralCode.Text = $"Referral Code : {UserStorage.currentUser.referralCode}";
+            }
+        }
+
+        private void buttonDoHomework_Click(object sender, EventArgs e)
+        {
+            DoHomework formDoHomework = new DoHomework();
+            formDoHomework.Show();
+            this.Hide();
+        }
+
+        private void buttonLogOut_Click(object sender, EventArgs e)
+        {
+            FormLogin formLogin = new FormLogin();
+            formLogin.Show();
+            this.Hide();
+        }
+    }
+}
